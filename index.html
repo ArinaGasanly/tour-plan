@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Best Tour Plan - Hotel Booking</title>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;700;800&display=swap"
     rel="stylesheet">
@@ -107,30 +107,25 @@
       </div>
       <!-- /.hotel-info -->
       <div class="hotel-grid">
-        <div class="slider">
-          <!-- Slider main container -->
-          <div class="swiper-container">
+          <div class="hotel-slider">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
-              <div class="swiper-slide">
+              <div class="hotel-slider__item">
                 <img src="img/slide.jpg" alt="slide">
               </div>
-              <div class="swiper-slide">
+              <div class="hotel-slider__item">
                 <img src="img/slide.jpg" alt="slide">
               </div>
-              <div class="swiper-slide">
+              <div class="hotel-slider__item">
                 <img src="img/slide.jpg" alt="slide">
               </div>
-            </div>
-            
+              </div>           
             <!-- If we need navigation buttons -->
-            <img src="img/arrow-prev.svg" alt="" class="slider-img slider-img--prev">
-            <img src="img/arrow-next.svg" alt="" class="slider-img slider-img--next">
+            <img src="img/arrow-prev.svg" alt="" class="hotel-slider__slider-img slider-img--prev">
+            <img src="img/arrow-next.svg" alt="" class="hotel-slider__slider-img slider-img--next">
           </div>
           <!-- /.swiper-container -->
-        </div>
-        <!-- /.slider -->
         <div class="hotel-right">
         <div class="booking">
           <div class="booking__info">
@@ -168,7 +163,7 @@
         <div class="map">
           <iframe
             src="https://yandex.ru/map-widget/v1/?um=constructor%3A7f3e6779772eb813c9177f87043da08362205e9d23e17daf43a0bb3084860220&amp;source=constructor"
-            width="347" height="213" frameborder="0"></iframe>
+            width="100%" height="213" frameborder="0"></iframe>
         </div>
         <!-- /.map -->
         </div>
@@ -178,6 +173,221 @@
     </div>
     <!-- /.container -->
   </section>
+
+  <section class="packages">
+    <div class="container">
+      <h2 class="packages__title">Other Packages</h2>
+      <div class="packages-wrapper">
+        <div class="tour-card1">
+          
+          <div class="photo">
+          <img src="img/tour-information.png" alt="landscape">
+          </div>
+          </div>
+          
+          <div class="tour__card1-information">
+<div class="stars">
+  <img src="img/star.svg" alt="star">
+  <img src="img/star.svg" alt="star">
+  <img src="img/star.svg" alt="star">
+  <img src="img/star.svg" alt="star">
+  <img src="img/star.svg" alt="star">
+</div>
+<h2 class="ink">Hotel Blue Haven</h2>
+<p>Aute quis duis excepteur excepteur ipsum cat eiusmod consectetur enim laborum magna llit. Ipsum est fugiat velit ea
+llamco do esse ut in veniam sun in onsequat. Aute quis duis epteur excepteur ipsum occaecat eiusmod nsectetur enim
+laborum magna mollit. Ipsum est fugiat velit ea ullamco do</p>
+<div>
+<img src="img/packages-map.svg" alt="star"> <span> 1749 Wheeler Ridge Delaware</span>
+</div>
+
+<div>
+<img src="img/packages-user.svg" alt="star"> <span> 2 x Guests</span>
+</div>
+
+<div>
+<img src="img/packages-home.svg" alt="star"> <span> 1 x Room</span>
+</div>
+<br>
+<br>
+<span class="cross">$ 10,500</span>
+
+<div class="haven">
+<span class="total">$ 8,500</span>
+<button class="packages_button">Book Now</button>
+</div>
+<img class="offer" src="img/Offer.png" alt="sticker">
+ </div>
+        
+
+        <div class="tour-card2">
+          <img class="miniphoto" src="img/tour-information2.png" alt="star">
+          <div class="tour__card2-information">
+          <h2 class="ink">LUX* Belle Mare</h2>
+          <img src="img/packages-map.svg" alt="star"><span> 1749 Wheeler Ridge Delaware</span><br>
+          <img src="img/packages-user.svg" alt="star"><span> 2 x Guests</span><br>
+          <img src="img/packages-home.svg" alt="star"><span> 1 x Room</span><br>
+          <span class="cross">$ 8,500</span>
+          
+          <div class="haven2">
+          <span class="total2">$ 3,000</span><br>
+         <button class="packages_button2">Book Now</button>
+        </div>
+          </div>
+          <img class="offer2" src="img/Offer.png" alt="sticker">
+        </div>
+
+        <div class="tour-card3">
+          <img class="miniphoto" src="img/tour-information3.png" alt="star">
+          
+          <div class="tour__card3-information">
+          <h2 class="ink" >White Palace</h2>
+          <img src="img/packages-map.svg" alt="star"><span> 1749 Wheeler Ridge Delaware</span><br>
+          <img src="img/packages-user.svg" alt="star"><span> 2 x Guests</span><br>
+          <img src="img/packages-home.svg" alt="star"><span> 1 x Room</span><br>
+          <span class="cross">$ 10,500</span>
+          <div class="haven2">
+            <span class="total2">$ 9,500</span><br>
+            <button class="packages_button2">Book Now</button>
+          </div>
+          </div>
+          <img class="offer3" src="img/Offer.png" alt="sticker">
+        </div>
+
+        <div class="tour-card4">
+          <img class="miniphoto" src="img/tour-information4.png" alt="star">
+          <div class="tour__card4-information">
+          <h2 class="ink">Luxury Place</h2>
+          <img src="img/packages-map.svg" alt="star"><span> 1749 Wheeler Ridge Delaware</span><br>
+          <img src="img/packages-user.svg" alt="star"><span> 2 x Guests</span><br>
+          <img src="img/packages-home.svg" alt="star"><span> 1 x Room</span><br>
+          <span class="cross">$ 5,500</span>
+          <div class="haven2">
+            <span class="total2">$ 2,500</span><br>
+            <button class="packages_button2">Book Now</button>
+          </div>
+          </div>
+          <img class="offer4" src="img/Offer.png" alt="sticker">
+        </div>
+
+        <div class="tour-card4">
+          <img class="miniphoto" src="img/tour-information5.png" alt="star">
+          <div class="tour__card5-information">
+          <h2 class="ink">Hotel Five Star</h2>
+          <img src="img/packages-map.svg" alt="star"><span> 1749 Wheeler Ridge Delaware</span><br>
+          <img src="img/packages-user.svg" alt="star"><span> 2 x Guests</span><br>
+          <img src="img/packages-home.svg" alt="star"><span> 1 x Room</span><br>
+          <span class="cross">$ 6,500</span>
+          <div class="haven2">
+            <span class="total2">$ 3,500</span><br>
+            <button class="packages_button2">Book Now</button>
+          </div>
+          </div>
+          <img class="offer5" src="img/Offer.png" alt="sticker">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="newsletter">
+    <div class="newsletter-wrapper">
+      <h2 class="newsletter-title newsletter__title">
+        subscribe to our
+        <span class="newsletter-title__strong">Newsletter</span>
+      </h2>
+      <form action="#" class="subscribe newsletter__subscribe">
+        <input type="text" class="subscribe__input" placeholder="Your email address"/>
+        <button class="subscribe__button">Send</button>
+      </form>
+    </div>
+  </section>
+
+
+  <section class="reviews">
+    <div class="container">
+      <h2 class="reviews__title">What people think about us</h2>
+      <div class="swiper-container reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+          <div>
+            <img src="img/arrow-prev-secondary.svg" class="reviews-slide__button--prev"></button>
+          </div>
+          <div>
+            <img src="img/arrow-next-secondary.svg" class="reviews-slide__button--next">
+          </div>
+          <div class="reviews-slider__item">
+            <div class="reviews-slider__profile">
+<img src="img/reviews-avatar.jpg" alt="Photo: Megan Fox" class="reviews-slider__avatar">
+<h3 class="reviews-slider__username">Megan Fox</h3>
+<span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
+<div class="reviews-slider__rating">
+  <img src="img/star.svg" alt="star">
+  <img src="img/star.svg" alt="star">
+  <img src="img/star.svg" alt="star">
+  <img src="img/star.svg" alt="star">
+  <img src="img/star.svg" alt="star">
+</div>
+<!-- /.reviews-slider__profile -->
+<p class="reviews-slider-text">It was very nice hotel with cleanliness. Staff behavior was good and polite. They welcome
+  us very well. Issue was only
+  that Lift was not in working and we were allotted to 3rd floor and amenities articles were in corner of gallery which
+  were giving bad feeling. Breakfast was good and support of the staff was also very nice. Location is not good as per
+  atmosphere, it is very nearby most of the popular places but self location in a narrow street is not good. Overall it
+  was a good experience and could recommend.</p>
+<!-- /.rating -->
+</div>
+          <!-- /.reviews-slider__item -->
+        </div>
+        <!-- /. swiper-slide -->
+      </div>
+      <!-- /. swiper-wrapper -->
+      <!-- /. reviews-slider -->
+    </div>
+  </section>
+<section class="activities">
+  <div class="container">
+    <h2 class="activities_title">Other Activities</h2>
+    <div class="activities-wrapper">
+      <div class="card activities__card">
+        <img src="img/activity-1.jpg" alt="The curious corner
+        of chamarel" class="card_image">
+        <h3 class="card_title">The curious corner
+        of chamarel</h3>
+        <button class="card__button">Book Now</button>
+      </div>
+      <!-- /.card -->
+      <div class="card activities__card">
+        <img src="img/activity-2.jpg" alt="Gymkhana club golf
+        course" class="card_image">
+        <h3 class="card_title">Gymkhana club golf
+        course</h3>
+        <button class="card__button">Book Now</button>
+      </div>
+      <!-- /.card -->
+      <div class="card activities__card">
+        <img src="img/activity-3.jpg" alt="Tamarind falls hiking
+        trip - full day" class="card_image">
+        <h3 class="card_title">Tamarind falls hiking
+        trip - full day
+</h3>
+        <button class="card__button">Book Now</button>
+      </div>
+      <!-- /.card -->
+      <div class="card activities__card">
+        <img src="img/activity-4.jpg" alt="The blue marine discovery
+        quest" class="card_image">
+        <h3 class="card_title">The blue marine discovery
+        quest</h3>
+        <button class="card__button">Book Now</button>
+      </div>
+      <!-- /.card -->
+    </div>
+  </div>
+</section>
+
+
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
